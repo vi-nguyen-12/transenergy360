@@ -8,9 +8,9 @@ const HomeScreen = () => {
   return (
     <div>
       <Heading />
-      <Banner1 />
+      {/* <Banner1 /> */}
       <Banner2 />
-      <List />
+      {/* <List /> */}
     </div>
   );
 };
