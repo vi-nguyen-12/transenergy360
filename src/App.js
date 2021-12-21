@@ -14,7 +14,7 @@ const App = () => {
           <HomeScreen/>
           </Route>
       </Routes> */}
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 };

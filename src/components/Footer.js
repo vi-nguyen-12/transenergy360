@@ -1,33 +1,11 @@
 import React from "react";
 import { Row, Col, Card, Button, Container } from "react-bootstrap";
-import "../styles/footer.css";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-wrap">
-        <div className="connect">
-          <h2>Stay with us, get our newsletter</h2>
-          <input
-            placeholder="Email address"
-            type="email"
-            name="email"
-            id="email"
-            className="footer-input"
-          />
-          <button
-            style={{
-              border: "none",
-              height: "2rem",
-              display: "flex",
-              justifyContent: "center",
-              height: "40px",
-              alignItems: "center",
-            }}
-          >
-            <strong>Sign Up</strong>
-          </button>
-        </div>
         <Card className="card-footer">
           <Container>
             <Row className="row-1">
@@ -131,7 +109,7 @@ const Footer = () => {
               </Col>
             </Row>
           </Container>
-          <Container style={{ display: "flex", padding: "20px" }}>
+          <Container classname="" style={{ display: "flex", padding: "20px" }}>
             <Row>
               <Col>
                 <img src="./images/logo-footer.png" />

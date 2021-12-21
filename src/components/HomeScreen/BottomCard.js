@@ -12,9 +12,6 @@ const BottomCard = () => {
           width: "400px",
           height: "260px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-295%",
-          left: "20%",
           borderRadius: "0",
         }}
       >
@@ -62,9 +59,9 @@ const BottomCard = () => {
           width: "400px",
           height: "260px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-295%",
-          left: "41%",
+          // position: "absolute",
+          // bottom: "-295%",
+          // left: "41%",
           borderRadius: "0",
         }}
       >
@@ -111,9 +108,7 @@ const BottomCard = () => {
           width: "400px",
           height: "260px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-295%",
-          left: "62%",
+
           borderRadius: "0",
         }}
       >

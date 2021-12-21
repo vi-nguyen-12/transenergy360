@@ -7,14 +7,7 @@ import { Button } from "react-bootstrap";
 const List = () => {
   return (
     <>
-      <div
-        className="topList"
-        style={{
-          height: "580px",
-          width: "100%",
-          marginTop: "20px",
-        }}
-      >
+      <div className="list-banner">
         <div
           style={{ display: "flex", justifyContent: "center", width: "100%" }}
         >
@@ -43,18 +36,14 @@ const List = () => {
           volutpat.
         </h4>
       </div>
-      <div style={{ position: "relative", top: "260px" }}>
-        <Cards />
-      </div>
-      <div
-        className="list"
-        style={{
-          height: "996px",
-          width: "100%",
-        }}
-      ></div>
-      <div style={{ position: "relative", top: "80px" }}>
-        <BottomCard />
+
+      <div className="list-banner-sub">
+        <div className="top-cards">
+          <Cards />
+        </div>
+        <div className="bottom-cards">
+          <BottomCard />
+        </div>
       </div>
     </>
   );

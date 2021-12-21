@@ -11,9 +11,6 @@ const Cards = () => {
           background: "white",
           width: "400px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-150%",
-          left: "10%",
         }}
       >
         <Card.Img
@@ -57,9 +54,6 @@ const Cards = () => {
           background: "white",
           width: "400px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-130%",
-          left: "40%",
         }}
       >
         <Card.Img
@@ -103,9 +97,6 @@ const Cards = () => {
           background: "white",
           width: "400px",
           border: "1px solid lightgrey",
-          position: "absolute",
-          bottom: "-130%",
-          left: "70%",
           borderRadius: "0",
         }}
       >

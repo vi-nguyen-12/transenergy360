@@ -1,13 +1,17 @@
 import React from "react";
 import { Row, Col, Card, Button, Container } from "react-bootstrap";
-import "../../styles/banner1.css";
+import "../../css/banner1.css";
 
 const Banner1 = () => {
   return (
     <div className="banner-1">
-      <Row style={{ display: "inline-flex" }}>
+      <Row style={{ display: "flex" }}>
         <Col xs={12} lg={6}>
-          <img src="./images/Mask Group 6.png" className="banner1" />
+          <img
+            src="./images/Mask Group 6.png"
+            className="banner1"
+            style={{ width: "100%" }}
+          />
         </Col>
 
         <Col xs={12} lg={6}>
