@@ -7,21 +7,20 @@ const Banner2 = () => {
     <Row className="banner-container">
       <Col xs={12} lg={6} className="banner-left">
         <div className="content-left">
-          <h1>OFFSHORE RIG</h1>
-          <h1>CAPTURE</h1>
+          <h1>USING SOLAR ENERGY CAPTURED BY THE OCEAN USING ARCS</h1>
+
           <p>
-            Eliminates the need for routine flaring and increases production of
-            the upstream operation.
+            ARCS provides a means to use solar energy captured by the oceans for
+            emission-free power generation.
           </p>
         </div>
       </Col>
       <Col xs={12} lg={6} className="banner-right">
         <div className="content-right">
-          <h1>OFFSHORE REFINERY</h1>
-          <h1>CAPTURE</h1>
+          <h1>POWER GENERATION ENERGY RECOVERY USING SWERS</h1>
           <p>
-            Scalable to integrate into the oil refinery flare stack systems to
-            reduce GHG emissions while increasing revenues.
+            SWERS provides ability to save water and recover waste energy in
+            thermal power plants.
           </p>
         </div>
       </Col>

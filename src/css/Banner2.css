@@ -45,4 +45,11 @@
   .content-right {
     position: relative;
   }
+  .content-left h1,
+  .content-left p {
+    margin-left: 10%;
+  }
+  .content-right p {
+    margin-right: 30%;
+  }
 }

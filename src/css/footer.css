@@ -3,28 +3,21 @@
   background-color: #110f11;
   padding: 20px;
 }
-.connect {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 100px;
-  align-self: auto;
-}
 
-.connect h2 {
+/* .connect h2 {
   color: white;
   padding: 100px;
   font-size: 25px;
-}
+} */
 
-.footer-input {
+/* .footer-input {
   background-color: #110f11;
   border: none;
   width: 30%;
   height: 40px;
   background-color: #2b2a2a;
   padding: 10px;
-}
+} */
 
 .footer-title {
   color: white;
@@ -56,4 +49,28 @@ a {
   width: 110px;
   font-size: 20px;
   display: inline-block;
+}
+.footer-copyright-wrapper {
+  display: "flex";
+  flex-direction: row;
+}
+.footer-copyright-left,
+.footer-copyright-right {
+  width: 50%;
+}
+.icons-group {
+  display: "flex";
+  flex-direction: row !important;
+  justify-content: right;
+}
+.icon {
+  display: inline-block;
+  width: 30px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 820px) {
+  .card-footer:last-child {
+    margin-top: 150% !important;
+  }
 }

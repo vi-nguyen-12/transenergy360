@@ -9,7 +9,7 @@ const Heading = () => {
     <div className="heading-main">
       <div className="left">
         <div className="top">
-          <img src="images/logo.png" style={{ width: "300px" }} />
+          <img src="images/logo-footer.png" style={{ width: "300px" }} />
           <h1>LEADING THE GLOBAL ENERGY TRANSITION TO A LOW CARBON FUTURE </h1>
           <p>
             We are TransEnergy360, a Texas based clean energy company offering
@@ -24,7 +24,6 @@ const Heading = () => {
           </p>
           <div className="btn-group">
             <button style={{ marginRight: "30px" }}>LEARN MORE</button>
-            <button> CONTACT US</button>
           </div>
         </div>
         <div className="bottom">
@@ -41,6 +40,12 @@ const Heading = () => {
               The introduction of REHM, ARCS, and SWERS technologies into the
               landscape will create a better future for the energy industry
             </p>
+            <div className="playLogo">
+              <img
+                src="images/video-play-512.png"
+                style={{ width: "10%", marginBottom: "10%", marginLeft: "80%" }}
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -35,3 +35,13 @@
   padding: 19px;
   font-weight: bold;
 }
+@media only screen and (max-width: 812px) {
+  .banner1 {
+    left: 0 !important;
+    border: none;
+  }
+
+  .about h2 {
+    padding-left: 10%;
+  }
+}

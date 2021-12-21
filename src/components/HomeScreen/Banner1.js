@@ -17,23 +17,20 @@ const Banner1 = () => {
         <Col xs={12} lg={6}>
           <Row style={{ display: "flex" }}>
             <Col className="about">
-              <h2>SUPERIOR NATURAL PROCESSING OF METHANE HYDRATES</h2>
+              <h2>EMR PROCESSING OF METHANE HYDRATES USING REHM</h2>
               <p className="about-1">
-                Methane hydrate (also known as gas hydrate) is a clathrate
-                single compound (methane) that is nested within a lattice of
-                ice/water, It exists naturally and in abundance in deep oceans
-                at high pressures and relatively low temperatures, including in
-                the South and East Asian oceans. These solid hydrates can be
-                used to provide energy by dissociating it to gaseous methane and
-                water by means of depressurization, chemical substitution, or
-                energy transfer.
+                REHM provides a means to extract gaseous methane from globally
+                abundant methane hydrates. It uses Electro Magnetic Resonance
+                (EMR) to selectively transfer energy for the dissociation of
+                methane from hydrate. Resulting methane is used for power
+                generation, with emissions converted to fertilizers for
+                afforestation, and surplus reinjected underground. The process
+                will be self-sustaining using biofuels when forestation is
+                initiated. It is globally applicable due to presence of hydrates
+                near population centers and decentralized community operated
+                projects are visualized
               </p>
-              <p className="about-1">
-                Resonant Exploration & Production (REP) Technology has developed
-                a novel means to produce gaseous methane from globally abundant
-                hydrate deposits using selective energy transfer facilitated by
-                Electromagnetic Resonance (EMR) or REHM1 technology.
-              </p>
+
               <div
                 style={{
                   display: "flex",
@@ -42,8 +39,6 @@ const Banner1 = () => {
                 }}
               >
                 <button className="button-1">LEARN MORE</button>
-
-                <button className="button-2">READ WHITEPAPER</button>
               </div>
             </Col>
           </Row>
