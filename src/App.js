@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./components/Nav";
+import NavBar from "./components/Nav";
 import Footer from "./components/Footer";
 import HomeScreen from "./screens/HomeScreen";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <Router>
-      <Nav />
+      <NavBar />
       <HomeScreen />
       {/* <Routes>
         <Route path="/">

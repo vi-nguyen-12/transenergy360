@@ -1,0 +1,58 @@
+.footer-wrap {
+  background-color: #110f11;
+  padding: 20px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  align-self: auto;
+}
+
+.connect h2 {
+  color: white;
+  padding: 100px;
+  font-size: 25px;
+}
+
+.footer-input {
+  background-color: #110f11;
+  border: none;
+  width: 30%;
+  height: 40px;
+  background-color: #2b2a2a;
+  padding: 10px;
+}
+
+.footer-title {
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+li {
+  padding: 0.2rem;
+  font-size: 2rem;
+}
+
+ul {
+  padding: 0.9rem;
+}
+
+a {
+  font-size: 1.5rem;
+  color: #727176 !important;
+  text-decoration: none !important;
+}
+
+.row-7 {
+  display: flex;
+  justify-content: right;
+}
+
+.row-7 p a {
+  width: 110px;
+  font-size: 20px;
+  display: inline-block;
+}
