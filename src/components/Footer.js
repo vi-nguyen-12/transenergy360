@@ -33,7 +33,7 @@ const Footer = () => {
             </Col>
 
             <Col xs={12} lg={3}>
-              <h5 className="footer-title">Community</h5>
+              <h5 className="footer-title">About Us</h5>
               <ul>
                 <li className="list-unstyled">
                   <a href="#!">The Team</a>
@@ -72,7 +72,7 @@ const Footer = () => {
               </Col> */}
 
             <Col xs={12} lg={3}>
-              <h5 className="footer-title">Marketing</h5>
+              <h5 className="footer-title">Contact</h5>
               <ul>
                 <li className="list-unstyled">
                   <a href="#!">Campaigns</a>
@@ -153,6 +153,6 @@ const Footer = () => {
       </Card>
     </div>
   );
-}
+};
 
 export default Footer;

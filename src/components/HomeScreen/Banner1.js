@@ -36,6 +36,7 @@ const Banner1 = () => {
                   display: "flex",
                   justifyContent: "center",
                   alignItemstems: "center",
+                  marginTop: "40px",
                 }}
               >
                 <button className="button-1">LEARN MORE</button>
