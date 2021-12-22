@@ -27,11 +27,11 @@ const Heading = () => {
           </div>
         </div>
         <div className="bottom">
-          <img src="images/methane.jpg" cla />
+          <img src="images/methane.png" cla />
           <div className="content">
             <h4>
-              TRANSENERGY360 IS COMMITTED TO TRANSFORMING THE ENERGY LANDSCAPE
-              USING LOW CARBON POWER GENERATION
+              COMMITTED TO TRANSFORMING THE ENERGY LANDSCAPE USING LOW CARBON
+              POWER GENERATION
             </h4>
             <p>
               The introduction of REHM, ARCS, and SWERS technologies into the
