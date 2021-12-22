@@ -153,6 +153,6 @@ const Footer = () => {
       </Card>
     </div>
   );
-};
+}
 
 export default Footer;
