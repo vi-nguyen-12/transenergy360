@@ -17,32 +17,34 @@ const List = () => {
               justifyContent: "center",
               width: "80%",
               textAlign: "center",
-              color: "#252161",
+              color: "white",
               fontSize: "60px",
+              fontWeight: "bolder",
+              fontFamily: "proxima-nova",
             }}
           >
-            HIGH CARBON FOOTPRINT GAS PROCESSING PHASE NOW REDUNDANT
+            TRANSFORMING THE ENERGY LANDSCAPE USING LOW CARBON POWER GENERATION
+            TECHNOLOGY
           </h1>
         </div>
         <h4
           style={{
             display: "flex",
             justifyContent: "center",
-            fontSize: "16px",
+            fontSize: "20px",
+            color: "white",
+            fontFamily: "Proxima Nova",
+            marginTop: "20px",
           }}
         >
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod incident ut laoreet dolore magna aliquam erat
-          volutpat.
+          The introduction of REHM, ARCS, and SWERS technologies into the
+          landscape will create a better future for the energy industry.
         </h4>
       </div>
 
       <div className="list-banner-sub">
         <div className="top-cards">
           <Cards />
-        </div>
-        <div className="bottom-cards">
-          <BottomCard />
         </div>
       </div>
     </>
