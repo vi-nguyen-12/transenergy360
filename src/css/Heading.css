@@ -70,8 +70,8 @@ button {
 .bottom .methane-img {
   width: 600px;
   background-image: url("../images/methane.png");
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
+  background-position: left;
 }
 .content {
   display: flex;
