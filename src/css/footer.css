@@ -1,8 +1,23 @@
 .footer-wrap {
-  padding-top: 70px !important;
+  padding-top: 50px !important;
   background-color: #110f11;
+  height: 160px !important;
 }
 
+.footer-left {
+  background: url("/public/images/footer-logo.png") no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.content-left span {
+  display: flex;
+  color: #a8a8a8;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
 /* .connect h2 {
   color: white;
   padding: 100px;
@@ -68,39 +83,35 @@ a {
   padding: 20px;
 } */
 
-@media only screen and (min-width:981px) and (max-width: 1200px) {
-
+@media only screen and (min-width: 981px) and (max-width: 1200px) {
 }
 
-@media only screen and (min-width:769px) and (max-width: 980px){
-  .card-footer:last-child {
-    margin-top: 70%;
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+  .footer-wrap {
+    position: relative;
   }
 }
 
-@media only screen and (min-width:641px) and (max-width: 768px) 
-{
-  .card-footer{
-    margin-top:10% !important;;
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .footer-wrap {
+    position: relative;
   }
 }
 
 @media screen and (min-width: 575px) and (max-width: 640px) {
-  .card-footer{
-    margin-top:90% !important;;
+  .footer-wrap {
+    position: relative;
   }
 }
-  
-@media only screen and (max-width: 574px) 
-{
-  .card-footer:last-child {
-    margin-top: 60%;
+
+@media only screen and (max-width: 574px) {
+  .footer-wrap {
+    position: relative;
   }
 }
 
 @media screen and (max-width: 474px) {
-  .card-footer{
-    margin-top:90% !important;;
+  .footer-wrap {
+    position: relative;
   }
 }
-

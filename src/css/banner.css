@@ -14,6 +14,7 @@
 }
 .banner-top-left {
   background: url("/public/images/Mask Group 6.png") no-repeat;
+  border: none !important;
   background-size: cover;
   position: relative;
 }

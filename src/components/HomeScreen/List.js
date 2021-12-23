@@ -21,6 +21,7 @@ const List = () => {
               fontSize: "60px",
               fontWeight: "bolder",
               fontFamily: "proxima-nova",
+              marginTop: "20px",
             }}
           >
             TRANSFORMING THE ENERGY LANDSCAPE USING LOW CARBON POWER GENERATION

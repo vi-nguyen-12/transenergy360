@@ -5,12 +5,17 @@ import "../css/footer.css";
 const Footer = () => {
   return (
     <div className="footer-wrap">
-      <Card className="card-footer">
-        <Container>
-          <Row>
-            <Col xs={12} lg={3}>
-              <h5 className="footer-title">Home</h5>
-              {/* <ul>
+      <Row className="row h-100 pl-3">
+        <Col sm={6} className="footer-left">
+          <div className="content-left">
+            <span>
+              Copyright 2022 - 2025 TRANSENERGY360, LLC. All Rights Reserved.
+            </span>
+          </div>
+        </Col>
+        <Col>
+          <h5 className="footer-title">Home</h5>
+          {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">About Us</a>
                 </li>
@@ -30,11 +35,11 @@ const Footer = () => {
                   <a href="#!">News.</a>
                 </li>
               </ul> */}
-            </Col>
+        </Col>
 
-            <Col xs={12} lg={3}>
-              <h5 className="footer-title">Technology</h5>
-              {/* <ul>
+        <Col>
+          <h5 className="footer-title">Technology</h5>
+          {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">The Team</a>
                 </li>
@@ -51,9 +56,9 @@ const Footer = () => {
                   <a href="#!">Contact Us</a>
                 </li>
               </ul> */}
-            </Col>
+        </Col>
 
-            {/* <Col xs={12} lg={3}>
+        {/* <Col xs={12} lg={3}>
                 <h5 className="footer-title">Design</h5>
                 <ul>
                   <li className="list-unstyled">
@@ -71,9 +76,9 @@ const Footer = () => {
                 </ul>
               </Col> */}
 
-            <Col xs={12} lg={3}>
-              <h5 className="footer-title">About Us</h5>
-              {/* <ul>
+        <Col>
+          <h5 className="footer-title">About Us</h5>
+          {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">Campaigns</a>
                 </li>
@@ -87,11 +92,11 @@ const Footer = () => {
                   <a href="#!">Editional Design</a>
                 </li>
               </ul> */}
-            </Col>
+        </Col>
 
-            <Col xs={12} lg={2}>
-                <h5 className="footer-title">Contact</h5>
-                {/* <ul>
+        <Col>
+          <h5 className="footer-title">Contact</h5>
+          {/* <ul>
                   <li className="list-unstyled">
                     <a href="#!">About us</a>
                   </li>
@@ -105,13 +110,13 @@ const Footer = () => {
                     <a href="#!">London Office</a>
                   </li>
                 </ul> */}
-              </Col>
-          </Row>
-        </Container>
-        {/* <Container className="footer-copyright-wrapper">
+        </Col>
+      </Row>
+
+      {/* <Container className="footer-copyright-wrapper">
           {/* <div className="footer-copyright-left">
               <img src="./images/logo-footer.png" />
-              <div style={{ color: "#727176 " }}>
+              <div style={{ color: "#717176 " }}>
                 Copyright 2021 - 2025 LCT360, LLC. Allrights Reserved.
                 <p>
                   lorem ipsum dolor sit amet consectetur adipisicing elit sed do
@@ -121,7 +126,7 @@ const Footer = () => {
                 </p>
               </div>
             </div> */}
-          {/* <div className="footer-copyright-right">
+      {/* <div className="footer-copyright-right">
             <div className="icons-group">
               <div className="icon">
                 <img src="./images/facebook-24.png" />
@@ -133,7 +138,7 @@ const Footer = () => {
                 <img src="./images/instagram-24.png" />
               </div>
             </div> */}
-{/* 
+      {/* 
             <div className="row-7">
                 <p className="footer-title">
                   <a href="#!">Offices</a>
@@ -150,7 +155,6 @@ const Footer = () => {
               </div>
           </div>
         </Container> */}
-      </Card>
     </div>
   );
 };
