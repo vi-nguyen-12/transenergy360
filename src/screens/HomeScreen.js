@@ -9,7 +9,7 @@ const HomeScreen = () => {
       <Heading />
       <Banner />
       {/* <Banner2 /> */}
-      {/* <List /> */}
+      <List />
     </div>
   );
 };

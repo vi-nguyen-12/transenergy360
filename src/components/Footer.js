@@ -9,8 +9,8 @@ const Footer = () => {
         <Container>
           <Row>
             <Col xs={12} lg={3}>
-              <h5 className="footer-title">Company</h5>
-              <ul>
+              <h5 className="footer-title">Home</h5>
+              {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">About Us</a>
                 </li>
@@ -27,14 +27,14 @@ const Footer = () => {
                   <a href="#!">Careers</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">News</a>
+                  <a href="#!">News.</a>
                 </li>
-              </ul>
+              </ul> */}
             </Col>
 
             <Col xs={12} lg={3}>
-              <h5 className="footer-title">About Us</h5>
-              <ul>
+              <h5 className="footer-title">Technology</h5>
+              {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">The Team</a>
                 </li>
@@ -50,7 +50,7 @@ const Footer = () => {
                 <li className="list-unstyled">
                   <a href="#!">Contact Us</a>
                 </li>
-              </ul>
+              </ul> */}
             </Col>
 
             {/* <Col xs={12} lg={3}>
@@ -72,8 +72,8 @@ const Footer = () => {
               </Col> */}
 
             <Col xs={12} lg={3}>
-              <h5 className="footer-title">Contact</h5>
-              <ul>
+              <h5 className="footer-title">About Us</h5>
+              {/* <ul>
                 <li className="list-unstyled">
                   <a href="#!">Campaigns</a>
                 </li>
@@ -86,12 +86,12 @@ const Footer = () => {
                 <li className="list-unstyled">
                   <a href="#!">Editional Design</a>
                 </li>
-              </ul>
+              </ul> */}
             </Col>
 
-            {/* <Col xs={12} lg={2}>
-                <h5 className="footer-title">Our Team</h5>
-                <ul>
+            <Col xs={12} lg={2}>
+                <h5 className="footer-title">Contact</h5>
+                {/* <ul>
                   <li className="list-unstyled">
                     <a href="#!">About us</a>
                   </li>
@@ -104,11 +104,11 @@ const Footer = () => {
                   <li className="list-unstyled">
                     <a href="#!">London Office</a>
                   </li>
-                </ul>
-              </Col> */}
+                </ul> */}
+              </Col>
           </Row>
         </Container>
-        <Container className="footer-copyright-wrapper">
+        {/* <Container className="footer-copyright-wrapper">
           {/* <div className="footer-copyright-left">
               <img src="./images/logo-footer.png" />
               <div style={{ color: "#727176 " }}>
@@ -121,7 +121,7 @@ const Footer = () => {
                 </p>
               </div>
             </div> */}
-          <div className="footer-copyright-right">
+          {/* <div className="footer-copyright-right">
             <div className="icons-group">
               <div className="icon">
                 <img src="./images/facebook-24.png" />
@@ -132,9 +132,9 @@ const Footer = () => {
               <div className="icon">
                 <img src="./images/instagram-24.png" />
               </div>
-            </div>
-
-            {/* <div className="row-7">
+            </div> */}
+{/* 
+            <div className="row-7">
                 <p className="footer-title">
                   <a href="#!">Offices</a>
                 </p>
@@ -147,9 +147,9 @@ const Footer = () => {
                 <p className="footer-title">
                   <a href="#!">Help Center</a>
                 </p>
-              </div> */}
+              </div>
           </div>
-        </Container>
+        </Container> */}
       </Card>
     </div>
   );
