@@ -1,17 +1,31 @@
 import React from "react";
-import { Row, Nav } from "react-bootstrap";
+import { Row, Nav, Dropdown } from "react-bootstrap";
 import "../css/Nav.css";
 
 const NavBar = () => {
   return (
-    <div className="nav-container">
-      <div>
-        <button className="nav-btn">Home</button>
-        <button className="nav-btn">Technology</button>
-        <button className="nav-btn">About Us</button>
-        <button className="nav-btn">Contact</button>
+    <>
+      <div className="nav-container">
+        <button className="nav-item">HOME</button>
+        <button className="nav-item">TECHNOLOGY</button>
+        <button className="nav-item">ABOUT US</button>
       </div>
-    </div>
+      {/* <Dropdown>
+        <Dropdown.Toggle className="nav-btn"></Dropdown.Toggle>
+
+        <Dropdown.Menu>
+          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        </Dropdown.Menu>
+      </Dropdown> */}
+      <div className="nav-btn">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </>
   );
 };
 

@@ -2,44 +2,76 @@
   display: flex;
   height: 100vh;
 }
+.logo img {
+  position: absolute;
+  width: 300px;
+  top: 30px;
+  left: 100px;
+}
+p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Proxima Nova";
+}
 .left {
   background-color: #434343;
   color: #ffffff;
-  width: 40%;
-  position: relative;
-}
-.right {
-  width: 60%;
-  background-image: url("../images/main.png");
-  display: relative;
-  background-size: cover;
-}
-
-.top {
-  padding: 50px;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: space-between;
+}
+.right {
+  width: 50%;
+  background-image: url("../images/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top {
+  padding: 70px 100px 100px 100px;
+  display: flex;
+  flex-direction: column;
   border: 1 solid red;
 }
 
 .top h1 {
-  list-style: 1rem;
-  font-size: 2rem;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "proxima-nova";
+  font-weight: 700;
+  letter-spacing: 1.16px;
+  line-height: 60px;
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
-.top p {
-  margin-top: 10px;
-  font-size: 1rem;
+
+/* button */
+
+.btn-group {
+  margin-top: 40px;
 }
-.top img {
-  width: 500px;
-  margin-left: -112px;
+.btn-group .btn {
+  padding: 0;
+  margin-right: 20px;
 }
+
+button {
+  display: block;
+  background: #fcc12f;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+/* left side/ bottom */
 .bottom {
-  display: flex;
-  position: absolute;
-  bottom: 0;
   height: 250px;
+  display: flex;
+}
+.bottom .methane-img {
+  width: 600px;
+  background-image: url("../images/methane.png");
+  background-size: contain;
+  background-position: left;
 }
 .content {
   display: flex;
@@ -47,95 +79,84 @@
   justify-content: center;
   align-items: center;
   background: #3263c4;
-  width: 70%;
+  padding: 80px;
   height: 100%;
 }
 .content h4 {
-  padding: 0 12px;
-  font-size: 1.3rem;
-  margin-top: 50px;
-  text-align: justify;
-}
-.content p {
-  padding: 0 12px;
-  font-size: 1rem;
-  margin-bottom: 50px;
-  text-align: justify;
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 20px;
 }
 
-.btn-group {
-  display: flex;
-  margin-right: 30px;
-  margin-top: 40px;
+@media only screen and (max-width: 1200px) {
 }
-button {
-  background: #fcc12f;
-  font-weight: bold;
-  padding: 5px 15px;
-  margin-right: 30px;
+@media only screen and (max-width: 980px) {
 }
-
-.bottom img {
-  width: 50%;
-  height: 100%;
+@media only screen and (max-width: 768px) {
 }
-
-@media only screen and (max-width: 820px) {
-  .top img {
-    margin-top: -100px;
-  }
-  .top h1 {
-    font-size: 1rem;
-  }
-  .top p {
-    font-size: 0.8rem;
-  }
-
+@media only screen and (max-width: 480px) {
   .heading-main {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    height: auto;
   }
-
-  .bottom {
-    height: 200px;
+  .logo img {
+    width: 100px;
+    top: 30px;
+    left: 30px;
   }
-  .bottom img {
-    display: none;
-  }
-
   .left {
     width: 100%;
-    height: 100vh;
-    position: relative;
   }
   .right {
-    display: none;
+    width: 100%;
+    height: 70vh;
   }
 
-  .content {
+  p {
+    font-size: 15px;
+  }
+  .top {
+    padding: 30px;
+  }
+
+  .top h1 {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 0;
+  }
+  /* button */
+  .btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn button {
+    background: #fcc12f;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 8px;
+  }
+
+  /* bottom */
+  .bottom {
+    height: auto;
     width: 100%;
-    padding: 40px;
+    flex-direction: column;
+  }
+  .bottom .methane-img {
+    height: 300px;
+  }
+  .content {
+    padding: 30px;
   }
   .content h4 {
-    padding: 4px;
-    padding-left: 10px;
-    font-size: 1rem;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
   }
-
   .content p {
-    padding: -4px;
-    padding-left: 10px;
-    font-size: 0.8rem;
-  }
-
-  .btn-group button {
-    margin-left: 70px !important;
-    margin-top: -20px !important;
-  }
-}
-
-@media only screen and (max-width: 3080px) {
-  .btn-group {
-    position: absolute;
-    top: 50%;
+    text-align: center;
   }
 }
