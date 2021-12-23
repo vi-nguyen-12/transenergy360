@@ -1,19 +1,43 @@
 .nav-container {
-  display: flex;
+  width: 50vw;
   position: absolute;
-  right: 30px;
-  top: 20px;
+  right: 0;
+  top: 50px;
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
-.nav-btn {
+.nav-item {
   color: white;
   background-color: transparent;
   border: none;
 }
-@media (max-width: 400px) {
+.nav-btn {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 980px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
   .nav-container {
+    display: none;
+  }
+  .nav-btn {
+    display: block;
     position: absolute;
-    top: 20px;
-    flex-wrap: wrap;
+    top: 30px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+  }
+  .nav-btn hr {
+    background-color: white;
+    height: 4px;
+    border: 0;
+    margin: 3px 0;
   }
 }

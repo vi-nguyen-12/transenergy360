@@ -4,14 +4,19 @@ import "../css/Nav.css";
 
 const NavBar = () => {
   return (
-    <div className="nav-container">
-      <div>
-        <button className="nav-btn">Home</button>
-        <button className="nav-btn">Technology</button>
-        <button className="nav-btn">About Us</button>
-        <button className="nav-btn">Contact</button>
+    <>
+      <div className="nav-container">
+        <button className="nav-item">HOME</button>
+        <button className="nav-item">TECHNOLOGY</button>
+        <button className="nav-item">ABOUT US</button>
       </div>
-    </div>
+      <div className="nav-btn">
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+      </div>
+    </>
   );
 };
 
