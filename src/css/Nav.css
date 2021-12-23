@@ -37,7 +37,7 @@
   .nav-btn hr {
     background-color: white;
     height: 4px;
-    border: 0;
+    border: 1px;
     margin: 3px 0;
   }
 }
