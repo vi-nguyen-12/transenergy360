@@ -97,6 +97,14 @@
     font-size: 0.8rem!important;
     width: 300px!important;
   }
+
+  .list-banner h1{
+    font-size: 30px!important;
+  }
+  .list-banner h4{
+    font-size: 15px!important;
+    text-align: center;
+  }
 }
 
 @media  screen and (max-width: 375px) {
@@ -114,5 +122,14 @@
   .card-text h4{
     font-size: 0.8rem!important;
     width: 300px!important;
+  }
+
+  .list-banner h1{
+    font-size: 30px!important;
+  }
+
+  .list-banner h4{
+    font-size: 13px!important;
+    text-align: center;
   }
 }
