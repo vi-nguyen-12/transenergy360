@@ -27,7 +27,7 @@ const Footer = () => {
                   <a href="#!">Careers</a>
                 </li>
                 <li className="list-unstyled">
-                  <a href="#!">News</a>
+                  <a href="#!">News.</a>
                 </li>
               </ul> */}
             </Col>

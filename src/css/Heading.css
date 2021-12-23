@@ -11,7 +11,10 @@
 .right {
   width: 60%;
   background-image: url("../images/main.png");
+  display: relative;
+  background-size: cover;
 }
+
 .top {
   padding: 50px;
   display: flex;
@@ -127,5 +130,12 @@ button {
   .btn-group button {
     margin-left: 70px !important;
     margin-top: -20px !important;
+  }
+}
+
+@media only screen and (max-width: 3080px) {
+  .btn-group {
+    position: absolute;
+    top: 50%;
   }
 }
